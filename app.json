@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Shleepy",
+    "slug": "Shleepy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/moon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/moon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#031738"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/moon.png",
+        "backgroundColor": "#031738"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "react-native-health"
+    ],
+    "newArchEnabled": true,
+    "scheme": "expo-router-test"
+  }
+} 
